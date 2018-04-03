@@ -516,6 +516,8 @@ class PhpSegmentation
         
         //处理分词后的结果
         $this->_sort_finally_result();
+
+        return $this;
     }
     
     /**
