@@ -1,0 +1,21 @@
+{
+  "name": "laravel/php_analysis",
+  "description": "php segment analysis",
+  "keywords": ["analysis"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "LG",
+      "email": "erpboost@liang.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "LG/php_analysis2": "~1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpAnalysis2\\": "src/"
+    }
+  }
+}
