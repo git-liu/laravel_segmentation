@@ -1,4 +1,4 @@
-# php_analysis2
+# php word segmentation for laravel
 php segment analysis
 
 # 使用方式
