@@ -20,7 +20,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "PhpSegmentation\\Src\\PhpSegmentationProvider"
+        "PhpSegmentation\\Src\\Provider\\PhpSegmentationProvider"
       ],
       "aliases": {
         "PhpAnalysis": "PhpSegmentation\\Src\\Facade\\PhpSegmentation"
