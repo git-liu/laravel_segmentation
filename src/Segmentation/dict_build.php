@@ -3,7 +3,7 @@
 ini_set('memory_limit', '128M');
 error_reporting(E_ALL);
 header('Content-Type: text/html; charset=utf-8');
-require_once('PhpAnalysis.php');
+require_once('PhpSegmentation.php');
 $dicAddon = dirname(__FILE__).'/dict/not-build/base_dic_full.txt';
 
 if( empty($_GET['ac']) )

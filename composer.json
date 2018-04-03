@@ -16,16 +16,16 @@
   },
   "autoload": {
     "psr-4": {
-      "PhpAnalysis2\\": "src/"
+      "PhpSegmentation\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "PhpAnalysis2\\Src\\PhpAnalysisProvider"
+        "PhpSegmentation\\Src\\PhpSegmentationProvider"
       ],
       "aliases": {
-        "PhpAnalysis": "PhpAnalysis2\\Src\\Facade\\PhpAnalysis"
+        "PhpAnalysis": "PhpSegmentation\\Src\\Facade\\PhpSegmentation"
       }
     }
   }

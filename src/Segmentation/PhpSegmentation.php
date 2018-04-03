@@ -12,12 +12,12 @@
  *
  */
 
-namespace PhpAnalysis2\Src\Analysis;
+namespace PhpSegmentation\Src\Segmentation;
 
 //常量定义
 define('_SP_', chr(0xFF).chr(0xFE));
 define('UCS2', 'ucs-2be');
-class PhpAnalysis
+class PhpSegmentation
 {
 
     //hash算法选项
