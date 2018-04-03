@@ -11,8 +11,7 @@
   ],
   "require": {
     "php": ">=5.6.0",
-    "laravel": ">=5.5",
-    "LG/php_analysis2": "~1.0.0"
+    "laravel": ">=5.5"
   },
   "autoload": {
     "psr-4": {
