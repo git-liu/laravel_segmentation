@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpSegmentation\Src\Provider;
+namespace PhpSegmentation\Provider;
 
 
 use Illuminate\Support\ServiceProvider;
-use PhpSegmentation\Src\Segmentation\PhpSegmentation;
+use PhpSegmentation\Segmentation\PhpSegmentation;
 
 class PhpSegmentationProvider extends ServiceProvider{
 
