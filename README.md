@@ -7,7 +7,7 @@ composer require git-liu/php_segmentation dev-master
 
 # 使用方式
 
-$pa = PhpAnalysis::SetSource('浙江省杭州市余杭区');
+$pa = PhpSegmentation::SetSource('浙江省杭州市余杭区');
 
 $pa->resultType = 1;
 
